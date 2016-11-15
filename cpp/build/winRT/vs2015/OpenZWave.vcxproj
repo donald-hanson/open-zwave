@@ -44,11 +44,13 @@
     <ClInclude Include="..\..\..\src\command_classes\CentralScene.h" />
     <ClInclude Include="..\..\..\src\command_classes\ClimateControlSchedule.h" />
     <ClInclude Include="..\..\..\src\command_classes\Clock.h" />
+    <ClInclude Include="..\..\..\src\command_classes\Color.h" />
     <ClInclude Include="..\..\..\src\command_classes\CommandClass.h" />
     <ClInclude Include="..\..\..\src\command_classes\CommandClasses.h" />
     <ClInclude Include="..\..\..\src\command_classes\Configuration.h" />
     <ClInclude Include="..\..\..\src\command_classes\ControllerReplication.h" />
     <ClInclude Include="..\..\..\src\command_classes\CRC16Encap.h" />
+    <ClInclude Include="..\..\..\src\command_classes\DeviceResetLocally.h" />
     <ClInclude Include="..\..\..\src\command_classes\DoorLock.h" />
     <ClInclude Include="..\..\..\src\command_classes\DoorLockLogging.h" />
     <ClInclude Include="..\..\..\src\command_classes\EnergyProduction.h" />
@@ -86,6 +88,7 @@
     <ClInclude Include="..\..\..\src\command_classes\UserCode.h" />
     <ClInclude Include="..\..\..\src\command_classes\Version.h" />
     <ClInclude Include="..\..\..\src\command_classes\WakeUp.h" />
+    <ClInclude Include="..\..\..\src\command_classes\ZWavePlusInfo.h" />
     <ClInclude Include="..\..\..\src\Defs.h" />
     <ClInclude Include="..\..\..\src\DoxygenMain.h" />
     <ClInclude Include="..\..\..\src\Driver.h" />
@@ -178,11 +181,13 @@
     <ClCompile Include="..\..\..\src\command_classes\CentralScene.cpp" />
     <ClCompile Include="..\..\..\src\command_classes\ClimateControlSchedule.cpp" />
     <ClCompile Include="..\..\..\src\command_classes\Clock.cpp" />
+    <ClCompile Include="..\..\..\src\command_classes\Color.cpp" />
     <ClCompile Include="..\..\..\src\command_classes\CommandClass.cpp" />
     <ClCompile Include="..\..\..\src\command_classes\CommandClasses.cpp" />
     <ClCompile Include="..\..\..\src\command_classes\Configuration.cpp" />
     <ClCompile Include="..\..\..\src\command_classes\ControllerReplication.cpp" />
     <ClCompile Include="..\..\..\src\command_classes\CRC16Encap.cpp" />
+    <ClCompile Include="..\..\..\src\command_classes\DeviceResetLocally.cpp" />
     <ClCompile Include="..\..\..\src\command_classes\DoorLock.cpp" />
     <ClCompile Include="..\..\..\src\command_classes\DoorLockLogging.cpp" />
     <ClCompile Include="..\..\..\src\command_classes\EnergyProduction.cpp" />
@@ -220,6 +225,7 @@
     <ClCompile Include="..\..\..\src\command_classes\UserCode.cpp" />
     <ClCompile Include="..\..\..\src\command_classes\Version.cpp" />
     <ClCompile Include="..\..\..\src\command_classes\WakeUp.cpp" />
+    <ClCompile Include="..\..\..\src\command_classes\ZWavePlusInfo.cpp" />
     <ClCompile Include="..\..\..\src\Driver.cpp" />
     <ClCompile Include="..\..\..\src\Group.cpp" />
     <ClCompile Include="..\..\..\src\Manager.cpp" />

@@ -352,6 +352,15 @@
     <ClInclude Include="..\..\..\src\value_classes\ValueString.h">
       <Filter>Value Classes</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\src\command_classes\DeviceResetLocally.h">
+      <Filter>Command Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\command_classes\ZWavePlusInfo.h">
+      <Filter>Command Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\command_classes\Color.h">
+      <Filter>Command Classes</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\src\aes\aes_modes.c">
@@ -659,6 +668,15 @@
     </ClCompile>
     <ClCompile Include="..\..\..\src\value_classes\ValueString.cpp">
       <Filter>Value Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\command_classes\DeviceResetLocally.cpp">
+      <Filter>Command Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\command_classes\ZWavePlusInfo.cpp">
+      <Filter>Command Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\command_classes\Color.cpp">
+      <Filter>Command Classes</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
